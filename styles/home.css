@@ -22,7 +22,6 @@
     overflow: hidden;
     background-size: cover;
     width: 100%;
-    /* height: 100vh; */
 }
 .bg-color{
     background-color: black;
@@ -31,8 +30,18 @@
     opacity: 75%;
 }
 .carousel-item img{
-    width: 75%;
-    height: 300px;
+   width: 100%
+}
+footer a{
+    color: white;
+    text-decoration: unset;
+}
+ul li{
+    list-style: none;
+}
+.slide-container{
+    width: 40%;
+    height: 50%;
     margin: 0 auto;
     border-radius: 50%;
 }

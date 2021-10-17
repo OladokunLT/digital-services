@@ -30,7 +30,7 @@
     opacity: 75%;
 }
 .carousel-item img{
-   width: 100%
+   width: 100%;
 }
 footer a{
     color: white;
@@ -40,8 +40,15 @@ ul li{
     list-style: none;
 }
 .slide-container{
-    width: 40%;
+    width: 50%;
     height: 50%;
     margin: 0 auto;
     border-radius: 50%;
+}
+.developer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    gap: 2re;
 }
